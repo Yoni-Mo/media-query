@@ -10,6 +10,7 @@ body {
   background-color: teal;
 }
 .container {
+  background-color: blue;
   height: 68px;
   display: flex;
   justify-content: space-between;
@@ -22,6 +23,15 @@ body {
   color: #fff;
   text-decoration: none;
   margin-left: 10px;
+}
+.navbar {
+  width: 50%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
 }
 ul > li {
   font-size: 1.2rem;
