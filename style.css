@@ -31,7 +31,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 10px;
+  margin: 10px;
 }
 ul > li {
   font-size: 1.2rem;
@@ -39,4 +39,18 @@ ul > li {
   font-weight: lighter;
   color: #fff;
   list-style: none;
+}
+/* Media query */
+@media only screen and (max-width: 768px) {
+  ul {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo {
+    font-size: 1.7rem;
+    margin-top: 5px;
+  }
 }
